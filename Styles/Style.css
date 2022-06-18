@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar start */
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    display: inline-block;
+    margin: 0px 10px;
+    color: #211F54;
+}
+
+.btn{
+    background-color: #0075FF;
+    color: #fff;
+    border-radius: 10px;
+    padding: 17px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #004ca3;
+}
+
+/* Navbar end */
+
+/* Header Main */
+
+.headerBox{
+    width: 100%;
+    
+}
+
+.header-left{
+    width: 50%;
+    margin-left: 140px ;
+}
+
+.clr{
+    color: #211F54;
+}
+
+.p{
+    color: #6E7191;
+    font-size: 21px;
+}
+
+.left-h1{
+    font-size: 50px;
+}
+.left-p{
+    font-size: 21px;
+    width: 600px;
+    margin: 20px 0;
+}
+
+h3{
+    font-size: 28px;
+}
+
+i{
+    font-size: 25px;
+    color: #0075FF;
+    margin: 0 30px;
+    border: 1px solid #0075FF;
+    padding: 15px;
+    border-radius: 50px;
+
+}
+.rasm{
+    margin-right: 200px;
+    width: 40%;
+}
+
+/* main start */
+main{
+    margin-top: 200px;
+    width: 100%;
+    height: 100vh;
+}
+.main-h1{
+    text-align: center;
+    font-size: 48px;
+    color: #211F54;
+}
+
+.main-p{
+    text-align: center;
+    font-size: 21px;
+    color: #6E7191;
+}
+
+.main-div{
+    display: flex;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 163px;
+    
+    
+   
+}
+
+.main-div-h1{
+    font-size: 28px;
+    margin-top: 40px;
+    color: #211F54;
+}
+
+.main-div1{
+    text-align: center;
+    margin: 0px auto;
+}
+
+.main-p1{
+    color: #6E7191;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.div-knopka{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+
+.knopka{
+    margin: 50px 10px;
+    padding: 25px 40px;
+    border: none;
+}
+
+.knopka1{
+    background-color: #0075FF;
+    color: #fff;
+    border-radius: 14px;
+}
